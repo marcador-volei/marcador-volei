@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/marcador-volei/static/css/main.073c9b0a.css",
+    "main.js": "/marcador-volei/static/js/main.cded7d2d.js",
+    "static/js/787.22202ceb.chunk.js": "/marcador-volei/static/js/787.22202ceb.chunk.js",
+    "static/media/logo.svg": "/marcador-volei/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/marcador-volei/index.html",
+    "main.073c9b0a.css.map": "/marcador-volei/static/css/main.073c9b0a.css.map",
+    "main.cded7d2d.js.map": "/marcador-volei/static/js/main.cded7d2d.js.map",
+    "787.22202ceb.chunk.js.map": "/marcador-volei/static/js/787.22202ceb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.cded7d2d.js"
+  ]
+}

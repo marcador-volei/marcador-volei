@@ -3,9 +3,9 @@ import { useEffect, useState } from 'react';
 
 function App() {
 
-  const [contador1, setContador1] = useState(20);
+  const [contador1, setContador1] = useState(0);
   const [equipo1, setEquipo1] = useState('Equipo A');
-  const [contador2, setContador2] = useState(10);
+  const [contador2, setContador2] = useState(0);
   const [equipo2, setEquipo2] = useState('Equipo B');
   const [esCambio, setEsCambio] = useState(false);
 
@@ -47,7 +47,11 @@ function App() {
   return (
     <div className={esCambio ? 'AppCambio' : 'App'}>
           <div>
-            <p>{equipo1}</p>
+            <input
+              type={'text'}
+              onChange={(e) => setEquipo1(e.target.value)} 
+              value={equipo1}>
+            </input>
             <div>
               <button onClick={resta1} >-</button>
               <input 
@@ -62,7 +66,11 @@ function App() {
           </div>
           <button onClick={cambio}>CAMBIO</button>
           <div>
-            <p>{equipo2}</p>
+          <input
+              type={'text'}
+              onChange={(e) => setEquipo2(e.target.value)} 
+              value={equipo2}>
+            </input>
             <div>
               <button onClick={resta2} >-</button>
               <input 
